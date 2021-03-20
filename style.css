@@ -20,7 +20,7 @@ nav {
 }
 
 img {
-    width:170%;
+    width: 130%;
 }
 
 .nav_main {
@@ -47,4 +47,28 @@ img {
     display: inline-block;
     vertical-align: middle;
     padding: 2%;
+}
+
+.section {
+    /* margin: 0 auto; */
+    /* width: 35%; */
+    text-align: center;
+}
+
+.section_btn {
+    display: inline-block;
+    padding: 1%;
+    position: relative;
+    padding: 1%;
+    bottom: 275px;
+}
+
+.section_btn_img {
+    width: 100%;
+}
+
+.section_main {
+    width: 45%;
+    display: inline-block;
+    margin-top: 7%;
 }

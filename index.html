@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title>Serve project</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
 </head>
 
 <body>
@@ -17,45 +18,55 @@
         </div>
     </div>
     <div class="section" style="display: none;">
-        <div class="section_main">
-            <img src="img/Main.png">
+        <div class="section_btn">
+            <a href=" " class="section_left ">
+                <img class="section_btn_img" src="img/main_button1.png ">
+            </a>
         </div>
-        <a href="" class="section_left">
-            <img src="img/main_button1.png">
-        </a>
-        <div class="section_right">
-            <img src="img/main_button2.png">
+        <div class="section_main">
+            <img src="img/Main.png " style="width: 100%;">
+        </div>
+        <div class="section_btn">
+            <a href=" " class="section_right ">
+                <img class="section_btn_img" src="img/main_button2.png ">
+            </a>
         </div>
     </div>
-    <div class="footer">
-        <div class="footer_home">
-            <ul class="">
-                <li class="footer_button">
-                    <img src="img/footer_menu3.png" alt="">
+    <div class="footer ">
+        <div class="footer_home ">
+            <ul class=" ">
+                <li class="footer_button ">
+                    <img src="img/footer_menu3.png " alt=" ">
                 </li>
-                <li class="footer_button">
-                    <img src="img/footer_menu2.png" alt="">
+                <li class="footer_button ">
+                    <img src="img/footer_menu2.png " alt=" ">
                 </li>
-                <li class="footer_button">
-                    <img src="img/footer_menu.png" alt="">
+                <li class="footer_button ">
+                    <img src="img/footer_menu.png " alt=" ">
                 </li>
-                <li class="footer_button">
-                    <img src="img/footer_home.png" alt="">
+                <a onclick="fadeIn() ">
+                    <li class="footer_button ">
+                        <img src="img/footer_home.png " alt=" ">
+                    </li>
+                </a>
+                <li class="footer_button ">
+                    <img src="img/footer_menu.png " alt=" ">
                 </li>
-                <li class="footer_button">
-                    <img src="img/footer_menu.png" alt="">
+                <li class="footer_button ">
+                    <img src="img/footer_menu2.png " alt=" ">
                 </li>
-                <li class="footer_button">
-                    <img src="img/footer_menu2.png" alt="">
-                </li>
-                <li class="footer_button">
-                    <img src="img/footer_menu3.png" alt="">
+                <li class="footer_button ">
+                    <img src="img/footer_menu3.png " alt=" ">
                 </li>
             </ul>
         </div>
     </div>
     <script>
-
+        function fadeIn() {
+            alert("들어옴 ");
+            // $('.section').show();
+            $('.section').fadeIn(2000);
+        }
     </script>
 </body>
 
